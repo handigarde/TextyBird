@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9421184C19891DDE0003E419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9421184B19891DDE0003E419 /* Foundation.framework */; };
+		9421184E19891DDE0003E419 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9421184D19891DDE0003E419 /* CoreGraphics.framework */; };
+		9421185019891DDE0003E419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9421184F19891DDE0003E419 /* UIKit.framework */; };
+		9421185619891DDE0003E419 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9421185419891DDE0003E419 /* InfoPlist.strings */; };
+		9421185819891DDE0003E419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9421185719891DDE0003E419 /* main.m */; };
+		9421185C19891DDE0003E419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9421185B19891DDE0003E419 /* AppDelegate.m */; };
+		9421185E19891DDE0003E419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9421185D19891DDE0003E419 /* Images.xcassets */; };
+		9421186519891DDE0003E419 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9421186419891DDE0003E419 /* XCTest.framework */; };
+		9421186619891DDE0003E419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9421184B19891DDE0003E419 /* Foundation.framework */; };
+		9421186719891DDE0003E419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9421184F19891DDE0003E419 /* UIKit.framework */; };
+		9421186F19891DDE0003E419 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9421186D19891DDE0003E419 /* InfoPlist.strings */; };
+		9421187119891DDE0003E419 /* Texty_BirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9421187019891DDE0003E419 /* Texty_BirdTests.m */; };
+		9421187B19892CEA0003E419 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9421187A19892CEA0003E419 /* Game.storyboard */; };
+		9421187E19892D8C0003E419 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9421187D19892D8C0003E419 /* GameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9421186819891DDE0003E419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9421184019891DDE0003E419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9421184719891DDE0003E419;
+			remoteInfo = "Texty Bird";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9421184819891DDE0003E419 /* Texty Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texty Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9421184B19891DDE0003E419 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9421184D19891DDE0003E419 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9421184F19891DDE0003E419 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9421185319891DDE0003E419 /* Texty Bird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Texty Bird-Info.plist"; sourceTree = "<group>"; };
+		9421185519891DDE0003E419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9421185719891DDE0003E419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9421185919891DDE0003E419 /* Texty Bird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Texty Bird-Prefix.pch"; sourceTree = "<group>"; };
+		9421185A19891DDE0003E419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9421185B19891DDE0003E419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9421185D19891DDE0003E419 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9421186319891DDE0003E419 /* Texty BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Texty BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9421186419891DDE0003E419 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9421186C19891DDE0003E419 /* Texty BirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Texty BirdTests-Info.plist"; sourceTree = "<group>"; };
+		9421186E19891DDE0003E419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9421187019891DDE0003E419 /* Texty_BirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Texty_BirdTests.m; sourceTree = "<group>"; };
+		9421187A19892CEA0003E419 /* Game.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+		9421187C19892D8C0003E419 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		9421187D19892D8C0003E419 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9421184519891DDE0003E419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9421184E19891DDE0003E419 /* CoreGraphics.framework in Frameworks */,
+				9421185019891DDE0003E419 /* UIKit.framework in Frameworks */,
+				9421184C19891DDE0003E419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9421186019891DDE0003E419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9421186519891DDE0003E419 /* XCTest.framework in Frameworks */,
+				9421186719891DDE0003E419 /* UIKit.framework in Frameworks */,
+				9421186619891DDE0003E419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9421183F19891DDE0003E419 = {
+			isa = PBXGroup;
+			children = (
+				9421185119891DDE0003E419 /* Texty Bird */,
+				9421186A19891DDE0003E419 /* Texty BirdTests */,
+				9421184A19891DDE0003E419 /* Frameworks */,
+				9421184919891DDE0003E419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9421184919891DDE0003E419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9421184819891DDE0003E419 /* Texty Bird.app */,
+				9421186319891DDE0003E419 /* Texty BirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9421184A19891DDE0003E419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9421184B19891DDE0003E419 /* Foundation.framework */,
+				9421184D19891DDE0003E419 /* CoreGraphics.framework */,
+				9421184F19891DDE0003E419 /* UIKit.framework */,
+				9421186419891DDE0003E419 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9421185119891DDE0003E419 /* Texty Bird */ = {
+			isa = PBXGroup;
+			children = (
+				9421185A19891DDE0003E419 /* AppDelegate.h */,
+				9421185B19891DDE0003E419 /* AppDelegate.m */,
+				9421187A19892CEA0003E419 /* Game.storyboard */,
+				9421187C19892D8C0003E419 /* GameViewController.h */,
+				9421187D19892D8C0003E419 /* GameViewController.m */,
+				9421185D19891DDE0003E419 /* Images.xcassets */,
+				9421185219891DDE0003E419 /* Supporting Files */,
+			);
+			path = "Texty Bird";
+			sourceTree = "<group>";
+		};
+		9421185219891DDE0003E419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9421185319891DDE0003E419 /* Texty Bird-Info.plist */,
+				9421185419891DDE0003E419 /* InfoPlist.strings */,
+				9421185719891DDE0003E419 /* main.m */,
+				9421185919891DDE0003E419 /* Texty Bird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9421186A19891DDE0003E419 /* Texty BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				9421187019891DDE0003E419 /* Texty_BirdTests.m */,
+				9421186B19891DDE0003E419 /* Supporting Files */,
+			);
+			path = "Texty BirdTests";
+			sourceTree = "<group>";
+		};
+		9421186B19891DDE0003E419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9421186C19891DDE0003E419 /* Texty BirdTests-Info.plist */,
+				9421186D19891DDE0003E419 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9421184719891DDE0003E419 /* Texty Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9421187419891DDE0003E419 /* Build configuration list for PBXNativeTarget "Texty Bird" */;
+			buildPhases = (
+				9421184419891DDE0003E419 /* Sources */,
+				9421184519891DDE0003E419 /* Frameworks */,
+				9421184619891DDE0003E419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Texty Bird";
+			productName = "Texty Bird";
+			productReference = 9421184819891DDE0003E419 /* Texty Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9421186219891DDE0003E419 /* Texty BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9421187719891DDE0003E419 /* Build configuration list for PBXNativeTarget "Texty BirdTests" */;
+			buildPhases = (
+				9421185F19891DDE0003E419 /* Sources */,
+				9421186019891DDE0003E419 /* Frameworks */,
+				9421186119891DDE0003E419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9421186919891DDE0003E419 /* PBXTargetDependency */,
+			);
+			name = "Texty BirdTests";
+			productName = "Texty BirdTests";
+			productReference = 9421186319891DDE0003E419 /* Texty BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9421184019891DDE0003E419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = handigarde;
+				TargetAttributes = {
+					9421186219891DDE0003E419 = {
+						TestTargetID = 9421184719891DDE0003E419;
+					};
+				};
+			};
+			buildConfigurationList = 9421184319891DDE0003E419 /* Build configuration list for PBXProject "Texty Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9421183F19891DDE0003E419;
+			productRefGroup = 9421184919891DDE0003E419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9421184719891DDE0003E419 /* Texty Bird */,
+				9421186219891DDE0003E419 /* Texty BirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9421184619891DDE0003E419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9421187B19892CEA0003E419 /* Game.storyboard in Resources */,
+				9421185619891DDE0003E419 /* InfoPlist.strings in Resources */,
+				9421185E19891DDE0003E419 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9421186119891DDE0003E419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9421186F19891DDE0003E419 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9421184419891DDE0003E419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9421185C19891DDE0003E419 /* AppDelegate.m in Sources */,
+				9421187E19892D8C0003E419 /* GameViewController.m in Sources */,
+				9421185819891DDE0003E419 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9421185F19891DDE0003E419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9421187119891DDE0003E419 /* Texty_BirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9421186919891DDE0003E419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9421184719891DDE0003E419 /* Texty Bird */;
+			targetProxy = 9421186819891DDE0003E419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9421185419891DDE0003E419 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9421185519891DDE0003E419 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9421186D19891DDE0003E419 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9421186E19891DDE0003E419 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9421187219891DDE0003E419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9421187319891DDE0003E419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9421187519891DDE0003E419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texty Bird/Texty Bird-Prefix.pch";
+				INFOPLIST_FILE = "Texty Bird/Texty Bird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9421187619891DDE0003E419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texty Bird/Texty Bird-Prefix.pch";
+				INFOPLIST_FILE = "Texty Bird/Texty Bird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9421187819891DDE0003E419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Texty Bird.app/Texty Bird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texty Bird/Texty Bird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Texty BirdTests/Texty BirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9421187919891DDE0003E419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Texty Bird.app/Texty Bird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Texty Bird/Texty Bird-Prefix.pch";
+				INFOPLIST_FILE = "Texty BirdTests/Texty BirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9421184319891DDE0003E419 /* Build configuration list for PBXProject "Texty Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9421187219891DDE0003E419 /* Debug */,
+				9421187319891DDE0003E419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9421187419891DDE0003E419 /* Build configuration list for PBXNativeTarget "Texty Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9421187519891DDE0003E419 /* Debug */,
+				9421187619891DDE0003E419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9421187719891DDE0003E419 /* Build configuration list for PBXNativeTarget "Texty BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9421187819891DDE0003E419 /* Debug */,
+				9421187919891DDE0003E419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9421184019891DDE0003E419 /* Project object */;
+}
