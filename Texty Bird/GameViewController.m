@@ -84,8 +84,8 @@
     {
         birdLabel.frame = CGRectMake(birdLabel.frame.origin.x, birdLabel.frame.origin.y + velocity, birdLabel.frame.size.width, birdLabel.frame.size.height);
         velocity += GRAVITY;
-        [self moveEnemies];
         if (gameState == IN_GAME) {
+            [self moveEnemies];
             score += 0.04;
             scoreLabel.text = [NSString stringWithFormat:@"%.02f", score];
             [self checkIfAlive];
